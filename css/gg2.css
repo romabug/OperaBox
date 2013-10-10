@@ -1,0 +1,90 @@
+   
+ .guomeimei button 
+ { background:#FF9;  height:43px; margin-top:24px; padding: 0px 22px;}
+ 
+ 	 
+#temp_hole_cover  
+{  display:none;
+width:100px; height:100px; position:absolute;
+left:200px; top:200px;  z-index:60;
+   background-position: -200px -200px;
+    
+}
+
+
+ #gbigbox_2 {
+ 
+  width: 300px;
+   height: 300px;
+     position: absolute;
+ 	
+ 	}
+	 
+ 
+ #gbigbox_pic_inner {
+	 
+   left:300px;
+   
+ z-index:10; width:300px;
+  height:300px; 
+  position:absolute; 
+    display:none;
+    border-left: 2px solid #FFF;  
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: #666666 1px 1px 5px;
+  -moz-box-shadow: #666666 1px 1px 5px;
+  box-shadow: #666666 1px 1px 5px;
+  behavior: url(/pie/PIE.htc);
+  
+  
+	 }  
+
+#gbigbox_pic_inner_tmp{
+ 	 
+ z-index:1; 
+   width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #FFF;
+  position: absolute;
+  left:300px;
+   display:none;
+   
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: #666666 1px 1px 5px;
+  -moz-box-shadow: #666666 1px 1px 5px;
+  box-shadow: #666666 1px 1px 5px;
+  behavior: url(/pie/PIE.htc);
+  
+	 }  
+	 
+  #gbigbox_pic_inner_tmp2{
+ 	 
+ z-index:10; 
+   width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-right: 2px solid #FFF;
+  position: absolute;
+  display:none; 
+ 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: #666666 1px 1px 5px;
+  -moz-box-shadow: #666666 1px 1px 5px;
+  box-shadow: #666666 1px 1px 5px;
+  behavior: url(/pie/PIE.htc);
+  
+	 }  
