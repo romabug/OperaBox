@@ -143,7 +143,7 @@
 }
 .tu_public {
   width: 100px;
-  height: 100px;
+  height: 100px; 
   position: absolute;
   cursor: pointer;
   background-repeat: repeat;
@@ -156,7 +156,7 @@
   -webkit-box-shadow: 5px 5px 14px #000000;
   z-index: 100;
 }
-#tu_0 {
+#tu_0 {  
   background-position: 0  0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -322,7 +322,7 @@
   position: absolute;
   bottom: -1px;
   left: 0;
-}  
+}
 .button_g.blue {
   background: #22C3EB;
 }

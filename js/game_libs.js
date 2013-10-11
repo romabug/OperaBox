@@ -91,13 +91,15 @@ $("#iamhole").attr("mark","pp"+aArr[8]);
 $("#iamhole").removeClass();
 $("#iamhole").addClass("pp"+aArr[8]);
 
+var tmp = $("#block_radius").val();
+
 for(var i=0; i<8;i++){   
 
 var makeid ="tu_"+ i;
 var makepp = "pp" +aArr[i];
  $("#"+ makeid).removeClass();
  $("#"+ makeid).removeAttr("style");
-  $("#"+ makeid).removeAttr();
+//  $("#"+ makeid).removeAttr();
  //重新定位图片  
 
 //   $(".tu_public").css("background-image",temp_url);  
@@ -105,7 +107,16 @@ var makepp = "pp" +aArr[i];
 
   $("#"+ makeid).addClass("tu_public");
     $("#"+ makeid).attr("mark",makepp ); 
-   $("#"+ makeid).css("background-image",temp_url);  
+   $("#"+ makeid).css("background-image",temp_url);
+   
+     $(".tu_public").css({
+	 "border-radius": tmp +"px" ,
+	"-webkit-border-radius": tmp +"px" ,
+	 "-moz-border-radius" : tmp +"px" ,
+	 "-o-border-radius": tmp +"px" ,
+	 "-ms-border-radius": tmp +"px" 
+ 	 });	
+      
   }  
  
 }; 
@@ -115,21 +126,33 @@ var makepp = "pp" +aArr[i];
 // 图片重新 排列的 算法
 function Re_start(temp_url) {
 //	var temp_url = "url(mydog5.jpg)" ;
- 
+var tmp =$("#block_radius").val();
+  
  for(var i=0; i<8;i++){   
  
 var makeid ="tu_"+ i;
 var makepp = "pp" +i;
 //移除DIV 的所有参数
  $("#"+ makeid).removeClass();
- $("#"+ makeid).removeAttr("style");
-   $("#"+ makeid).removeAttr();  
+  
+   $("#"+ makeid).removeAttr("style");
+ //  $("#"+ makeid).removeAttr();  
  //重新赋予DIV 参数
  $("#"+ makeid).attr("mark",makepp );
 
  $("#"+ makeid).addClass(makepp).addClass("tu_public");     };
    
-     $(".tu_public").css("background-image",temp_url);
+   $(".tu_public").css("background-image",temp_url);
+   
+  $(".tu_public").css({
+	 "border-radius": tmp +"px" ,
+	"-webkit-border-radius": tmp +"px" ,
+	 "-moz-border-radius" : tmp +"px" ,
+	 "-o-border-radius": tmp +"px" ,
+	 "-ms-border-radius": tmp +"px" 
+ 	 });	 
+
+  
 
 $("#iamhole").removeClass().addClass("pp8");
   $("#iamhole").removeAttr("style");

@@ -68,7 +68,7 @@ $("#block_top_density").change(function(e) {
 
  
 // 小块阴影风格调整
-
+  
 $("#block_top_shadow").change(function(e) {
 	var tmp = $(this).val();
 	var density = $("#block_top_density").val();
