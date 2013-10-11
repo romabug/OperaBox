@@ -7,7 +7,7 @@
  
  
 $(document).ready(function(e) {
- 
+	
 	
  // 初始化 图片设置
  
@@ -24,7 +24,76 @@ $("#gbigbox_pic_inner").css("background-image",temp_url);
   $("#gbigbox_pic_inner_tmp2").css("background-image",temp_url);  //内层
  
 // 调入 主游戏函数	
-game ();  
+game (); 
+
+
+// 小块圆角程度的 调整
+$("#block_radius").change(function(e) {
+	var tmp = $(this).val() ;
+	
+  $(".shadow_layer").css({
+	 "border-radius": tmp +"px" ,
+	"-webkit-border-radius": tmp +"px" ,
+	 "-moz-border-radius" : tmp +"px" ,
+	 "-o-border-radius": tmp +"px" ,
+	 "-ms-border-radius": tmp +"px" 
+ 	 });
+
+  $(".tu_public").css({
+	 "border-radius": tmp +"px" ,
+	"-webkit-border-radius": tmp +"px" ,
+	 "-moz-border-radius" : tmp +"px" ,
+	 "-o-border-radius": tmp +"px" ,
+	 "-ms-border-radius": tmp +"px" 
+ 	 });	 
+  
+	
+});
+
+
+ 
+// 小块阴影浓度 调整
+
+$("#block_top_density").change(function(e) {
+	var shadow = $("#block_top_shadow").val();
+	var density = $(this).val();
+	
+  $(".shadow_layer").css({
+	 "box-shadow": shadow +"px" + " " + shadow +"px"+ " " + density +"px" + " " + " #000000 inset"   
+  
+ 	 });
+	 
+ }); 
+ 
+
+ 
+// 小块阴影风格调整
+
+$("#block_top_shadow").change(function(e) {
+	var tmp = $(this).val();
+	var density = $("#block_top_density").val();
+	
+  $(".shadow_layer").css({
+	 "box-shadow": tmp +"px" + " " + tmp +"px"+ " " + density +"px" + " " + " #000000 inset"   
+  
+ 	 });
+	 
+ }); 
+  
+	 
+//  box-shadow: -3px -3px 6px #000000 inset;
+//  -moz-box-shadow: -3px -3px 6px #000000 inset;
+//  -webkit-box-shadow: -3px -3px 6px #000000 inset;	 
+
+/*  $("#turl").bind({  
+  "click" : function () {
+	input_text = $(this).val();  $(this).val("")   },
+ 	"change" : function () { $(this).val(input_text); } 
+ 	}); */	 
+	 
+ 
+
+
 
  
  

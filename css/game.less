@@ -66,7 +66,7 @@ background: linear-gradient(@myvalue, @myvalue2);
  
    
 
-.gbigbox_radius ( )     /* 拼图容器 */
+.gbigbox_radius ( )     /* 拼图 大容器 */
 {
     -webkit-border-radius: @radius_b;
     -moz-border-radius: @radius_b;
@@ -246,7 +246,7 @@ position:absolute; width:100px; height:100px;
   width:100px;  height:100px;  position: absolute;  cursor: pointer;
   
  background-repeat:repeat;
-   .tu_public_radius ;
+
  
  } 
 
@@ -261,15 +261,15 @@ position:absolute; width:100px; height:100px;
    }
    
 
-#tu_0    { background-position: 0  0;   }  
-#tu_1  {  background-position:  -100px  0 ;   }  
-#tu_2  { background-position:   -200px  0 ;   }
+#tu_0    { background-position: 0  0;     .tu_public_radius ;  }  
+#tu_1  {  background-position:  -100px  0 ;     .tu_public_radius ; }  
+#tu_2  { background-position:   -200px  0 ;     .tu_public_radius ; }
 
-#tu_3 {  background-position:  0 -100px;  }
-#tu_4 {  background-position: -100px -100px;  }
-#tu_5 {  background-position:    -200px -100px;  }
-#tu_6  {  background-position:   0 -200px;  }
-#tu_7  {  background-position:  -100px -200px;  }
+#tu_3 {  background-position:  0 -100px;    .tu_public_radius ; }
+#tu_4 {  background-position: -100px -100px;    .tu_public_radius ; }
+#tu_5 {  background-position:    -200px -100px;     .tu_public_radius ;}
+#tu_6  {  background-position:   0 -200px;    .tu_public_radius ; }
+#tu_7  {  background-position:  -100px -200px;     .tu_public_radius ;}
  
  
   

@@ -147,15 +147,6 @@
   position: absolute;
   cursor: pointer;
   background-repeat: repeat;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  box-shadow: 2px 2px 10px #000000;
-  -moz-box-shadow: 2px 2px 10px #000000;
-  -webkit-box-shadow: 2px 2px 10px #000000;
-  behavior: url(/pie/PIE.htc);
 }
 .tu_public:hover {
   margin-left: -2px;
@@ -167,32 +158,104 @@
 }
 #tu_0 {
   background-position: 0  0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_1 {
   background-position: -100px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_2 {
   background-position: -200px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_3 {
   background-position: 0 -100px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_4 {
   background-position: -100px -100px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_5 {
   background-position: -200px -100px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_6 {
   background-position: 0 -200px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 #tu_7 {
   background-position: -100px -200px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #000000;
+  -moz-box-shadow: 2px 2px 10px #000000;
+  -webkit-box-shadow: 2px 2px 10px #000000;
+  behavior: url(/pie/PIE.htc);
 }
 .click_effect2 {
-  box-shadow: 17px 14px 34px #000000;
-  -webkit-box-shadow: 17px 14px 34px #000000;
-  -moz-box-shadow: 17px 14px 34px #000000;
+  box-shadow: 23px 7x 34px #000000;
+  -webkit-box-shadow: 23px 7x 34px #000000;
+  -moz-box-shadow: 23px 7x 34px #000000;
   behavior: url(/pie/PIE.htc);
 }
 #restart,
@@ -259,7 +322,7 @@
   position: absolute;
   bottom: -1px;
   left: 0;
-}
+}  
 .button_g.blue {
   background: #22C3EB;
 }
@@ -270,7 +333,7 @@
   background: #da8a00;
 }
 .button_g.yellow {
-  background: #b3a400;  
+  background: #b3a400;
 }
 .button_g.turquoise {
   background: #00b1af;
