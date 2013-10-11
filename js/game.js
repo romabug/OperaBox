@@ -79,6 +79,34 @@ $("#block_top_shadow").change(function(e) {
  	 });
 	 
  }); 
+ 
+ 
+  
+ 
+ $("label.range_me:first").dblclick(function(e) {
+    $("#block_radius").val("6");
+	   $("#block_radius").trigger("change");
+ 
+});
+
+ $("label.range_me:eq(1)").dblclick(function(e) {
+    $("#block_top_shadow").val("-3");
+	 $("#block_top_shadow").trigger("change");
+	
+});
+
+ $("label.range_me:eq(2)").dblclick(function(e) {
+    $("#block_top_density").val("6");
+	 $("#block_top_density").trigger("change");
+});
+ 
+  $("label.range_me:eq(3)").dblclick(function(e) {
+    $("#block_speed").val("250");
+	 $("#block_speed").trigger("change");
+});
+ 
+ 
+ 
   
 	 
 //  box-shadow: -3px -3px 6px #000000 inset;
@@ -342,11 +370,15 @@ $(".tu_public").bind("click", function () {
 	
  var which_tu = "";  //记录 被点击 图的 位置 
  which_tu =$(this).attr("mark");
+ 
+var block_speed = parseInt ( $("#block_speed").val() );
+var motion_style = $(":radio:checked").val();
+ 
+ 
 // 点击后图片换皮肤	
 //	$(".tu_public").removeClass("click_effect");
 //	$(this).addClass("click_effect");
-  
-// alert ( $(this).css("left") );  
+ 
   
   var hole_top = $("#iamhole").css("top");
   var hole_left = $("#iamhole").css("left");
@@ -374,8 +406,10 @@ $(".tu_public").bind("click", function () {
   return false; }
   else
  { 
-  
-  $(this).animate({ top:  hole_top, left:hole_left},250,"easeOutBounce", 
+ //// /easeOutBounce///// 移动 方式 和 速度 调节  block_speed /// /////
+ 
+  $(this).animate({ top:  hole_top, left:hole_left},block_speed,motion_style, 
+   
   function () {  
 // alert ("more over");  
 //图片 换坐标
