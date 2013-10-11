@@ -272,14 +272,14 @@ Cell: 0412 545 228   Sydney Australia
 #restart,
 #hitme,
 #toumiao,
-#surl {
+#surl {    
   font-size: 15px;
   text-align: center;
   cursor: pointer;
 }
 #turl {
   font-size: 13px;
-  width: 80%;
+  width: 200px;
   height: 30px;
   border: 2px  #FF6600 solid;
   color: #ff6600;

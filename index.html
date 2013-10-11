@@ -82,37 +82,39 @@
 <div id="game_tool">
 
  <button id="restart" class="button_g"   > Restart </button>
- <button id="hitme"  class="button_g"  > Earth quake </button>
+ <button id="hitme"  class="button_g"  >Shake it </button>
 <button id="toumiao"  class="button_g"     > View image</button>
    </div>  
    
 <div class="guomeimei"  >
 
+<p> Block Pattern</p>
+
 <p>  
-<label class="range_me" >   radius: <input id="block_radius" type="range"   min="0" max="56" value="6"  >  </label> 
+<label class="range_me" >  Border Radius <input id="block_radius" type="range"   min="0" max="56" value="6"  >  </label> 
 <br/>
 
-<label class="range_me"  >   shadow style: <input id="block_top_shadow" type="range"  min="-6" max="3" value="-3"  >  </label>
+<label class="range_me"  >   Shadow Distance <input id="block_top_shadow" type="range"  min="-6" max="3" value="-3"  >  </label>
 <br/>  
 
   
 
-<label class="range_me"  >   shadow density: <input id="block_top_density" type="range"   min="2" max="24" value="6"  >  </label>  <br>
+<label class="range_me"  >   Shadow Density  <input id="block_top_density" type="range"   min="2" max="24" value="6"  >  </label>  <br>
 
 <br>
 <br>
 
  
 
-  Motion style:  <br>
+  Motion Style:  <br>
 <label >
-<input type="radio" name="myspeed"  value="easeOutQuart" /> easeOutQuart
+<input type="radio" name="myspeed"  value="easeOutQuart" /> Ease
 </label>
 <label >
- <input type="radio" name="myspeed"   value="easeInCubic" /> easeInCubic
- </label>
+ <input type="radio" name="myspeed"   value="easeInCubic" /> Cubic
+ </label> 
  <label >
-<input type="radio" name="myspeed" checked  value="easeOutBounce"  />  easeOutBounce (default)      </label>
+<input type="radio" name="myspeed" checked  value="easeOutBounce"  />  Bounce (default)      </label>
 
  
   <br>
@@ -133,7 +135,7 @@
 
   </p>
   
-  </div> 
+  </div>  
    
 <div id="pic_url"  >
  <input id="turl"   type="url" tabindex="4" value="Paste Image URL here to Change Image" required >
