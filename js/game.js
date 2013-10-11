@@ -1,7 +1,14 @@
- /*********************************************
- version 1.0
- by: hanchang cai
- **********************************************/
+/********************************************************* 
+Opera BOX v1.0
+********************************************************** 
+The Source code can be found in:
+https://github.com/romabug/OperaBox
+  
+License of source code
+------------------------------------------------------------
+Copyright (C) 2012-2013 romabug, Hanchang Cai <hanchangcai@gmail.com>
+Cell: 0412 545 228    Sydney Australia
+***********************************************************/
  
 
  
@@ -106,7 +113,7 @@ $("#block_top_shadow").change(function(e) {
 });
  
  
- 
+   
   
 	 
 //  box-shadow: -3px -3px 6px #000000 inset;
